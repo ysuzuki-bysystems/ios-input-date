@@ -4,7 +4,13 @@ import Box from "@mui/material/Box";
 export default function Home() {
   return (
     <>
-      <Box>
+      <Box mt="1em">
+        <input type="date" />
+      </Box>
+      <Box mt="1em">
+        <input type="date" style={{ WebkitAppearance: "none" }} />
+      </Box>
+      <Box mt="1em">
         <TextField type="date" size="small" />
       </Box>
       <Box mt="1em">
@@ -13,6 +19,7 @@ export default function Home() {
       <Box mt="1em">
         <TextField type="date" size="small" sx={{ "& input": { WebkitAppearance: "none", minWidth: "8em" } }}/>
       </Box>
+
       <Box mt="1em">
         <TextField type="time" size="small" sx={{ "& input": { WebkitAppearance: "none", minWidth: "8em" } }}/>
       </Box>

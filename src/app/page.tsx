@@ -8,7 +8,7 @@ export default function Home() {
         <TextField type="date" size="small" />
       </Box>
       <Box mt="1em">
-        <TextField type="date" size="small" sx={{ WebkitAppearance: "none" }}/>
+        <TextField type="date" size="small" sx={{ "& input": { WebkitAppearance: "none" } }}/>
       </Box>
     </>
   );
